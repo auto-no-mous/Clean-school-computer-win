@@ -13,6 +13,6 @@
 Для Windows 10:
 
 **Пуск** --> **Параметры**. В указанном пункте настроек откройте раздел **Семья и другие пользователи**
-!([https://github.com/auto-no-mous/Clean-school-computer-win/images/add_user_win10_1.png)
+!([https://github.com/auto-no-mous/Clean-school-computer-win/tree/main/images/add_user_win10_1.png)
 
 В разделе **Другие пользователи** выберите **Добавить другого пользователя на этот компьютер**
