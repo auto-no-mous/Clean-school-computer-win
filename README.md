@@ -66,6 +66,7 @@
   ![Редактор групповых политик gpedit.msc](/images/gpedit/gpedit_main.png "Окно редактора групповых политик")
   
   а если нет — вот такое сообщение:
+  
     ![Ошибка gpedit.msc](/images/gpedit/cannot_find_gpedit_error.png "Ошибка - редактор групповых политик не найден")
   
 </details>
