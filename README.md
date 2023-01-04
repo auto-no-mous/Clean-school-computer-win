@@ -69,6 +69,9 @@
   
   ![Ошибка gpedit.msc](/images/gpedit/cannot_find_gpedit_error.png "Ошибка - редактор групповых политик не найден")
   
+  В случае ошибки, можно установить gpedit.msc [вручную]: https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/gpedit-error-fix.md
+  
+  
 </details>
 
 <details>
