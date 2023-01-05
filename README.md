@@ -71,6 +71,8 @@
   
   В случае ошибки, можно установить gpedit.msc [вручную](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/gpedit-error-fix.md)
   
+  ## Приступим к настройке запретов
+  
   После того, как редактор групповых политик gpedit.msc запущен, первое, и самое главное - запретить изменение фонового рисунка.
   
   Для этого откроем раздел Конфигурация пользователя → Административные  шаблоны → Панель управления → Персонализация. (User Configuration → Administrative templates → Control Panel → Display)
@@ -81,7 +83,7 @@
   
    ![Редактор групповых политик - Окно настроек параметра](/images/gpedit/gpedit_option_window.png "Окно настроек параметра")
   
-  
+  Теперь 
 </details>
 
 <details>
