@@ -6,7 +6,7 @@
 
 ### Установка gpedit.msc для Windows 10
 
-1. Скачайте bat-файл gpedit-install.bat
+1. Скачайте bat-файл [gpedit-install.bat](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/files/gpedit-install.bat)
 2. Запустите его от имени администратора
 3. Дождитесь окончания установки. Проверьте работоспособность, открыв окно запуска сочетанием WIN + R, и введя gpedit.msc
 
@@ -29,3 +29,5 @@
 4. После установки обновления необходимо будет перезагрузить компьютер и попробовать выполнить команду **gpedit.msc**. Если все пройдет успешно, должна открыться искомая консоль редактора групповых политик.
 
 ![Редактор групповых политик gpedit.msc](/images/gpedit/gpedit_main.png "Окно редактора групповых политик")
+
+*При необходимости, редактор групповых политик можно **удалить** с помощью этого скрипта: [gpedit-uninstall.bat](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/files/gpedit-uninstall.bat)*
