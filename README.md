@@ -147,7 +147,7 @@ ____
 
 [disable_personalization.bat](https://raw.githubusercontent.com/auto-no-mous/Clean-school-computer-win/main/files/disable_personalization.bat)
 
-1. Скачайте bat-файл <a href="https://raw.githubusercontent.com/auto-no-mous/Clean-school-computer-win/main/files/disable_personalization.bat" download>disable_personalization.bat</a>
+1. Скачайте bat-файл <a id="raw-url" href="https://raw.githubusercontent.com/auto-no-mous/Clean-school-computer-win/main/files/disable_personalization.bat">disable_personalization.bat</a>
 2. Зайдите в учётную запись ученика на компьютере
 3. Запустите файл **disable_personalization.bat** от имени администратора
 4. Затем, запустите файл **disable_personalization.bat** обычным способом(т.е., без прав администратора)
