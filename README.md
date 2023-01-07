@@ -145,7 +145,7 @@ ____
 
 Работать с редактором системного реестра regedit.exe не придется, все нужные ключи реестра уже собраны в командный .bat файл. Его нужно будет лишь выполнить правильным образом:
 
-1. Скачайте bat-файл [disable_personalization.bat](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/files/disable_personalization.bat)
+1. Скачайте bat-файл [disable_personalization.bat](https://raw.githubusercontent.com/auto-no-mous/Clean-school-computer-win/main/files/disable_personalization.bat)
 2. Зайдите в учётную запись ученика на компьютере
 3. Запустите файл **disable_personalization.bat** от имени администратора
 4. Затем, запустите файл **disable_personalization.bat** обычным способом(т.е., без прав администратора)
