@@ -13,8 +13,11 @@ REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Sy
 REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Windows\Sidebar" /v TurnOffSidebar /t REG_DWORD /d 1 /f
 REG ADD "HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer" /v NoUninstallFromStart /t REG_DWORD /d 1 /f
 
-::настройки, влияющие только на windows 8 и старше
-REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v SettingsPageVisibility /t REG_SZ /d hide:personalization-background;themes;personalization-start;ms-settings:display;ms-settings:nightlight;ms-settings:powersleep;ms-settings:tabletmode;ms-settings:remotedesktop;ms-settings:autoplay;ms-settings:network-wifi;ms-settings:colors;ms-settings:taskbar;ms-settings:taskbar;ms-settings:signinoptions;ms-settings:otherusers;ms-settings:regionlanguage;ms-settings:speech;ms-settings:gaming-gamebar;ms-settings:gaming-broadcasting;ms-settings:gaming-gamemode;ms-settings:gaming-trueplay;ms-settings:gaming-xboxnetworking;ms-settings:windowsdefender /f
+::настройки, влияющие только на windows 8 и новее
+::полный список параметров, которые можно скрыть, смотрите здесь:
+::https://learn.microsoft.com/en-us/windows/uwp/launch-resume/launch-settings-app#ms-settings-uri-scheme-reference
+
+REG ADD "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v SettingsPageVisibility /t REG_SZ /d hide:personalization-background;personalization-start-places;lockscreen;themes;personalization-start;personalization-background;display;personalization-colors;colors;nightlight;powersleep;tabletmode;remotedesktop;autoplay;network-wifi;colors;taskbar;signinoptions;otherusers;regionlanguage;speech;gaming-gamebar;gaming-broadcasting;gaming-gamemode;gaming-trueplay;gaming-xboxnetworking;windowsdefender;screenrotation;personalization-glance;fonts;easeofaccess-mouse;easeofaccess-mousepointer;easeofaccess-highcontrast;easeofaccess-display;easeofaccess-colorfilter;easeofaccess-colorfilter-adaptivecolorlink;easeofaccess-colorfilter-bluelightlink;easeofaccess-keyboard;easeofaccess-highcontrast;easeofaccess-visualeffects;defaultapps;startupapps;appsfeatures;appsfeatures-app /f
 
 ::настройки влияющие на все учетные записи
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop" /v NoChangingWallPaper /t REG_DWORD /d 1 /f
