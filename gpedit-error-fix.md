@@ -30,5 +30,5 @@
 
 ![Редактор групповых политик gpedit.msc](/images/gpedit/gpedit_eng.png "Окно редактора групповых политик")
 
-За
+
 *При необходимости, редактор групповых политик можно **удалить** с помощью этого скрипта: [gpedit-uninstall.bat](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/files/gpedit-uninstall.bat)*
