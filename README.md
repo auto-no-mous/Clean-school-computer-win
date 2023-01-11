@@ -158,7 +158,7 @@ net user **"Student"** /PasswordChg:No
 Теперь нужно создать скрипт, который будет очищать рабочий стол, и восстанавливать стандартные имена значков рабочего стола. Для перемещения файлов с рабочего стола нам понадобится бесплатный архиватор 7-zip. Выполняем по пунктам:
 
 1. Скачать архиватор **7-zip** https://www.7-zip.org/, затем установить его.
-2. Скачать шаблон скрипта [autoexec.bat](https://github.com/auto-no-mous/Clean-school-computer-win/blob/main/files/autoexec.bat)
+2. Скачать шаблон скрипта [autoexec.bat](https://raw.githubusercontent.com/auto-no-mous/Clean-school-computer-win/main/files/autoexec.bat)
 3. Откройте скрипт **autoexec.bat** с помощью любого текстового редактора (например, Блокнот)
 4. Находим строку 
 ```
